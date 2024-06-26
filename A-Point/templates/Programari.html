@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Recomandare</title>
+    <link rel="stylesheet" href="static/nicepage.css" media="screen">
+<link rel="stylesheet" href="static/Recomandare.css" media="screen">
+    <script class="u-script" type="text/javascript" src="static/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="static/nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 6.9.2, nicepage.com">
+    <meta name="referrer" content="origin">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Programari">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-custom-color-3 u-header" id="sec-16c6" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        
+      </div></header>
+    <section class="u-clearfix u-image u-section-1" id="sec-1d23" data-image-width="500" data-image-height="395">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-container-style u-custom-color-5 u-group u-opacity u-opacity-55 u-radius u-shape-round u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <h3 class="u-align-center u-text u-text-1">Completeaza formularul pentru a adauga un film </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-custom-color-3 u-section-2" id="sec-e396">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-expanded-width u-form u-form-1">
+          <form action="http://localhost:5000/Programari.html" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email" name="form" style="padding: 10px;">
+    <div class="u-form-group u-form-select u-form-group-3">
+        <label for="select-44dc" class="u-label u-text-custom-color-4">Alege un nume</label>
+        <textarea>
+    </div>
+    <div class="u-form-date u-form-group u-form-group-4">
+      <label for="select-44dc" class="u-label u-text-custom-color-4">Scrie o mica descriere</label>
+      <textarea>
+    </div>
+    <div class="u-form-group u-form-time u-form-group-5">
+      <label for="select-44dc" class="u-label u-text-custom-color-4">Da o nota</label>
+      <textarea>
+    </div>
+    <div class="u-form-group u-form-time u-form-group-5">
+      <label for="select-44dc" class="u-label u-text-custom-color-4">Unde ai vizionat filmul?</label>
+      <textarea>
+    </div>
+    <div class="u-align-center u-form-group u-form-submit">
+        <a href="#" onclick="document.forms[0].submit(); return false;" class="u-btn u-btn-round u-btn-submit u-button-style u-custom-color-1 u-radius u-text-custom-color-4 u-btn-1">Submit</a>
+                  <input type="submit" value="submit" class="u-form-control-hidden">
+    </div>
+</form>
+
+        </div>
+      </div>
+    </section>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    {% set last_message = messages[-1] %}
+    <div class="flash">{{ last_message[1] }}</div>
+  {% endif %}
+{% endwith %}
+
+</body></html>
